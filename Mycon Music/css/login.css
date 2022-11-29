@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-size: 100%;
+    text-align: center;
+}
+
+.header1{
+    padding: 10px;
+    height: 10vh;
+    background-color: black;
+}
+.header1 h1 {
+    float: left;
+    font-size: 40px;
+    margin: 20px;
+    color: white;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.logo:hover {
+    width: 55px;
+    height: 55px;
+}
+
+.main1{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+}
+
+.box1 {
+    margin: 5vh;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(31, 31, 31);
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px rgb(0, 0, 0);
+}
+.box2 {
+    margin: 2vh;
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+    background-color: rgb(173, 173, 173);
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px rgb(0, 0, 0);
+}
+.user,.pass {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 25px;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.button {
+    font-weight: bolder;
+    margin-top: 40px;
+    padding: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    background-color: rgb(2, 161, 103); 
+    transition-duration: 0.4s;
+}
+  
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    font-size: 15px;
+    color: white;
+    border: none;
+}
+
+lord-icon {
+    width: 150px;
+    height: 150px;
+}
+

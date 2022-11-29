@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+@font-face {
+    font-family: daddy;
+    src: src('fonte/Daddy-Day.ttf'), format('opentype');
+ }
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1{
+    height: 10vh;
+    background-color: black;
+}
+.header1 h1 {
+    float: left;
+    margin: 20px;
+    color: white;
+    font-family: 'daddy', Arial;
+}
+.pesquisa {
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.logo:hover {
+    width: 55px;
+    height: 55px;
+}
+.nav1{
+    margin: 0;
+    height: 90vh;
+    width: 5%;
+    display: inline-block;
+    background-color: black;
+}
+.a1 lord-icon {
+    width: 40px;
+    height: 40px;
+}
+.a1{
+    margin-top: 90px;
+    display: block;
+}
+
+.main1{
+    height: 90vh;
+    width: 95%;
+    display: inline-block;
+    float: right;
+    background-color: rgb(12, 12, 12);
+}
+.musica1{
+    margin: 50px;
+    float: left;
+    color: white;
+    font-weight: bolder;
+}
+.musica1 h4 {
+    margin: 20px;
+}
+.mscImg {
+    width: 300px;
+    height: 150px;
+    transition: 0.3s;
+}
+.mscImg:hover {
+    width: 325px;
+    height: 175px;
+}
+.teste1 {
+    text-decoration: none;
+}
